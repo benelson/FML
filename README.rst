@@ -30,20 +30,18 @@ Please cite `this <http://adsabs.harvard.edu/abs/2016MNRAS.455.2484N>`_ if you u
 The BibTeX entry for the paper is:
 
     @ARTICLE{2016MNRAS.455.2484N,
-	author = {{Nelson}, B.~E. and {Robertson}, P.~M. and {Payne}, M.~J. and 
-   	{Pritchard}, S.~M. and {Deck}, K.~M. and {Ford}, E.~B. and {Wright}, J.~T. and 
-   	{Isaacson}, H.~T.},
-    	title = "{An empirically derived three-dimensional Laplace resonance in the Gliese 876 planetary system}",
-  	journal = {\mnras},
-	archivePrefix = "arXiv",
-   	eprint = {1504.07995},
- 	primaryClass = "astro-ph.EP",
- 	keywords = {methods: numerical, methods: statistical, techniques: radial velocities, planets and satellites: dynamical evolution and stability, planets and satellites: formation},
-     	year = 2016,
-    	month = jan,
-   	volume = 455,
-    	pages = {2484-2499},
-      	doi = {10.1093/mnras/stv2367},
-   	adsurl = {http://adsabs.harvard.edu/abs/2016MNRAS.455.2484N},
-  	adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+        author = {{Nelson}, B.~E. and {Robertson}, P.~M. and {Payne}, M.~J. and {Pritchard}, S.~M. and {Deck}, K.~M. and {Ford}, E.~B. and {Wright}, J.~T. and {Isaacson}, H.~T.},
+    	 title = "{An empirically derived three-dimensional Laplace resonance in the Gliese 876 planetary system}",
+       journal = {\mnras},
+ archivePrefix = "arXiv",
+        eprint = {1504.07995},
+  primaryClass = "astro-ph.EP",
+      keywords = {methods: numerical, methods: statistical, techniques: radial velocities, planets and satellites: dynamical evolution and stability, planets and satellites: formation},
+          year = 2016,
+         month = jan,
+        volume = 455,
+         pages = {2484-2499},
+           doi = {10.1093/mnras/stv2367},
+        adsurl = {http://adsabs.harvard.edu/abs/2016MNRAS.455.2484N},
+       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
     }
