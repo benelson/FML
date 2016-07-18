@@ -7,15 +7,15 @@ This is a repository for a tutorial on computing a fully marginalized likelihood
 Prerequisites
 -------------
 
-The tutorial uses common modules from a standard Anaconda installation. There are a few other modules you will have to install separately through e.g. pip. Those are::
+The tutorial uses common modules from a standard Anaconda installation. There are a few other modules you will have to install separately through e.g. pip. Those are:
 
     pip install corner
 
-for creating corner plots,::
+for creating corner plots,:
 
     pip install emcee
 
-for performing a Markov chain Monte Carlo to get a posterior sample of your model parameters given the data and some specified model, and::
+for performing a Markov chain Monte Carlo to get a posterior sample of your model parameters given the data and some specified model, and:
    
    pip install rebound
 
@@ -27,7 +27,7 @@ Attribution
 
 Please cite `this <http://adsabs.harvard.edu/abs/2016MNRAS.455.2484N>`_ if you use these posterior samples in your research.
 
-The BibTeX entry for the paper is::
+The BibTeX entry for the paper is:
 
     @ARTICLE{2016MNRAS.455.2484N,
 	author = {{Nelson}, B.~E. and {Robertson}, P.~M. and {Payne}, M.~J. and 
