@@ -29,14 +29,14 @@ Please cite `this <http://adsabs.harvard.edu/abs/2016MNRAS.455.2484N>`_ if you u
 
 The BibTeX entry for the paper is:
 
-    @ARTICLE{2016MNRAS.455.2484N,
-        author = {{Nelson}, B.~E. and {Robertson}, P.~M. and {Payne}, M.~J. and {Pritchard}, S.~M. and {Deck}, K.~M. and {Ford}, E.~B. and {Wright}, J.~T. and {Isaacson}, H.~T.},
-    	 title = "{An empirically derived three-dimensional Laplace resonance in the Gliese 876 planetary system}",
+    @ARTICLE{http://adsabs.harvard.edu/abs/2016MNRAS.455.2484N,
+        author = {{Nelson}, B.~E. and {Robertson}, P. and {Payne}, M.~J. and {Pritchard}, S.~M. and {Deck}, K.~M. and {Ford}, E.~B. and {Wright}, J.~T. and {Isaacson}, H. },
+         title = "{An Empirically Derived Three-Dimensional Laplace Resonance in the Gliese 876 Planetary System}",
        journal = {\mnras},
  archivePrefix = "arXiv",
         eprint = {1504.07995},
   primaryClass = "astro-ph.EP",
-      keywords = {methods: numerical, methods: statistical, techniques: radial velocities, planets and satellites: dynamical evolution and stability, planets and satellites: formation},
+      keywords = {Astrophysics - Earth and Planetary Astrophysics},
           year = 2016,
          month = jan,
         volume = 455,
@@ -45,3 +45,4 @@ The BibTeX entry for the paper is:
         adsurl = {http://adsabs.harvard.edu/abs/2016MNRAS.455.2484N},
        adsnote = {Provided by the SAO/NASA Astrophysics Data System}
     }
+
