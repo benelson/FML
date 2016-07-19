@@ -15,11 +15,11 @@ for creating corner plots,
 
     pip install emcee
 
-for performing a Markov chain Monte Carlo to get a posterior sample of your model parameters given the data and some specified model, and
+for performing a Markov chain Monte Carlo for a specified dataset and model, and
    
    pip install rebound
 
-for integrating the planetary system and thus the model evaluations.
+for integrating the planetary system and thus computing the model evaluations.
 
 
 Attribution
