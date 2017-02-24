@@ -8,7 +8,6 @@ def input_format(dict):
     params_chained = list(chain.from_iterable(params_by_planet))
     return params_by_planet, params_chained
 
-
 def dict_keys(nPlanets=1,nOff=0,slope=False):
     assert nPlanets<10
     assert nOff<10
@@ -18,7 +17,7 @@ def dict_keys(nPlanets=1,nOff=0,slope=False):
     off = 'c'
     if slope:
         acc = 's'
-        
+
     param_keys = [] # parameters from file read-in/integration
     param_tf_IS_keys = [] # parameters for importance sampling
 
@@ -34,7 +33,7 @@ def dict_keys(nPlanets=1,nOff=0,slope=False):
         temp = off + num[i]
         param_keys.append(temp)
         param_tf_IS_keys.append(temp)
-        
+
     if slope:
         param_keys.append(acc)
 
@@ -44,7 +43,7 @@ def posterior_samples_from_file(filename, param_keys, nPlanets, nOff=0):
     dic = OrderedDict()
     for i in range(len(param_keys)):
         dic[param_keys[i]] = []
-        
+
     num = 0
 
     with open(filename) as infile:
@@ -58,10 +57,8 @@ def posterior_samples_from_file(filename, param_keys, nPlanets, nOff=0):
                 dic[param_keys[i*5+3]].append(float(line[i*9+9]))
                 dic[param_keys[i*5+4]].append(float(line[i*9+11]))
             for i in range(nOff):
-                dic[param_keys[nPlanets*5+i]].append(float(line[nPlanets*9+3+i]))  
-              
+                dic[param_keys[nPlanets*5+i]].append(float(line[nPlanets*9+3+i]))
     return dic, num
-
 
 def posterior_samples_from_emcee(samples, param_keys):
     num = len(samples)
@@ -86,7 +83,7 @@ def rebound_structure_from_amewM(postSamp, nPlanets, nOffs=0):
     for i in range(len(planets)):
         for j in range(nOffs):
             offs[i].append(postSamp['c'+str(j+1)][i])
-        
+
     return planets, offs
 '''
 
@@ -98,4 +95,4 @@ def obs_data_from_file(filename):
             data.append(line)
     data = np.array(data).T
     data[0] = data[0] - data[0][0]
-    return {'times': data[0], 'rvs': data[1], 'errs': data[2], 'obs_indices': list(map(int, data[3])) }
+    return {'times': data[0], 'rvs': data[1], 'errs': data[2], 'obs_indices': list(map(int, data[3]))}
