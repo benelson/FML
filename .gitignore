@@ -1,7 +1,13 @@
 _*.py
+*.py[cod]
 __pycache__
 lickvels
 sample.out
 state.py
 Untitled.ipynb
 scatter.pdf
+.ipynb_checkpoints
+
+# macOS
+*.DS_Store
+._*
